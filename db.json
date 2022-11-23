@@ -1,9 +1,91 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "navBarItems": [
+    {
+      "title": "کارتابل",
+      "iconClassName": "bi bi-archive-fill",
+      "href": "/Cartable",
+      "subItems": []
+    },
+    {
+      "title": "زیرسیستم",
+      "iconClassName": "bi bi-boxes",
+      "href": "/",
+      "subItems": [
+        {
+          "title": "شروع فرآیند",
+          "iconClassName": "bi bi-file-diff-fill",
+          "href": "/"
+        },
+        {
+          "title": "پیش نویس",
+          "iconClassName": "bi bi-pencil-square",
+          "href": "/"
+        },
+        {
+          "title": "دریافتی",
+          "iconClassName": "bi bi-mailbox2",
+          "href": "/"
+        },
+        {
+          "title": "ارسال شده",
+          "iconClassName": "bi bi-ui-checks",
+          "href": "/"
+        },
+        {
+          "title": "کارپوشه شخصی",
+          "iconClassName": "bi bi-ui-checks",
+          "href": "/"
+        }
+      ]
+    },
+    {
+      "title": "فرآیند",
+      "iconClassName": "bi bi-arrow-repeat",
+      "href": "/",
+      "subItems": []
+    },
+    {
+      "title": "گزارش",
+      "iconClassName": "bi bi-clipboard-data-fill",
+      "href": "/",
+      "subItems": []
+    },
+    {
+      "title": "مدیریت",
+      "iconClassName": "bi bi-building-fill-gear",
+      "href": "/",
+      "subItems": [
+        {
+          "title": "کاربران",
+          "iconClassName": "bi bi-people-fill",
+          "href": "/"
+        },
+        {
+          "title": "فرم های پایه ",
+          "iconClassName": "bi bi-file-earmark-spreadsheet-fill",
+          "href": "/"
+        },
+        {
+          "title": "مدیریت کارتابل",
+          "iconClassName": "bi bi-file-post",
+          "href": "/"
+        },
+        {
+          "title": "سازمان",
+          "iconClassName": "bi bi-diagram-3-fill",
+          "href": "/"
+        },
+        {
+          "title": "تنظیمات",
+          "iconClassName": "bi bi-sliders",
+          "href": "/"
+        },
+        {
+          "title": "گزارش وقایع",
+          "iconClassName": "bi bi-binoculars-fill",
+          "href": "/"
+        }
+      ]
+    }
+  ]
 }
