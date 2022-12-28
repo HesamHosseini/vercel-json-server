@@ -92,19 +92,19 @@
           "iconClassName": "bi bi-binoculars-fill",
           "href": "/"
         }
-      ],
-      "TodoList": [
-        {
-          "id": 1,
-          "title": "test title 1",
-          "discription": "test discription 1"
-        },
-        {
-          "id": 2,
-          "title": "test title 2",
-          "discription": "test discription 2"
-        }
       ]
+    }
+  ],
+  "TodoList": [
+    {
+      "id": 1,
+      "title": "test title 1",
+      "discription": "test discription 1"
+    },
+    {
+      "id": 2,
+      "title": "test title 2",
+      "discription": "test discription 2"
     }
   ]
 }
